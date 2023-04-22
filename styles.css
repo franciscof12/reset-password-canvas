@@ -41,29 +41,29 @@ section {
 
 .top-left-gradient {
   position: absolute;
-  width: 1000px;
-  height: 1000px;
-  left: -400px;
-  top: -400px;
+  width: 2000px;
+  height: 2000px;
+  left: -950px;
+  top: -950px;
   background: radial-gradient(
     circle,
     rgba(85, 153, 255, 0.3) 10%,
-    rgba(85, 153, 255, 0.3) 35%,
-    rgba(66, 139, 250, 0) 50%
+    rgba(85, 153, 255, 0.3) 20%,
+    rgba(66, 139, 250, 0) 45%
   );
   z-index: 1;
 }
 .bottom-right-gradient {
   position: absolute;
-  width: 1000px;
-  height: 1000px;
-  bottom: -400px;
-  right: -400px;
+  width: 2000px;
+  height: 2000px;
+  bottom: -950px;
+  right: -950px;
   background: radial-gradient(
     circle,
-    rgba(138, 41, 235, 0.3) 10%,
-    rgba(138, 41, 235, 0.3) 35%,
-    rgba(138, 41, 235, 0) 50%
+    rgba(193, 96, 253, 0.3) 10%,
+    rgba(192, 91, 255, 0.3) 17%,
+    rgba(138, 41, 235, 0) 55%
   );
   z-index: 1;
 }
