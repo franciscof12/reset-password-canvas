@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+* {
+  font-family: "Termina";
+  box-sizing: border-box;
+}
+
+/* Reinicia márgenes y paddings*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* Configura el fondo, el color del texto y el diseño general del body */
+body {
+  color: #ebebeb;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("/imagenes/wave.png") no-repeat center center,
+    url("/imagenes/backgroundimg.png") no-repeat center center;
+  background-size: cover, cover, cover;
+}
+
+header {
+  border-bottom: 1px solid #ffffff93;
+  text-align: center;
+}
+
+h5 {
+  font-size: 15.1174px;
+  line-height: 18px;
+}
+
+/* Configura el diseño y los márgenes del contenido principal */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 20px;
+}
+
+/* Aplica márgenes a las secciones dentro de main */
+section {
+  margin-bottom: 15px;
+}
+
+.hello-user {
+  text-align: center;
+  width: 60vw;
+  font-size: 18px;
+}
+.hello-user > h4 {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.verification-code {
+  font-size: 18px;
+}
+.verification-code > h2 {
+  font-family: "Helvetica Now Text ";
+  margin-top: 0px;
+  font-size: 70px;
+}
+
+.customer-support {
+  font-size: 18px;
+  width: 60vw;
+}
+
+/* Estiliza el botón de reinicio de contraseña */
+button {
+  border: none;
+  border-radius: 15px;
+  background-color: #428bfa;
+  color: white;
+  padding: 15px;
+  width: 320px;
+  margin-top: 20px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.908);
+  font-family: "Helvetica Now Text ";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+p > strong, p > u {
+  color: #ffffff;
+}
